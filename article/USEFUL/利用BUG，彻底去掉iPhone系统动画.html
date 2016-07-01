@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>利用BUG，彻底去掉iPhone系统动画</title>
+    <style type="text/css" media="all">
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #777;
+        background-color: white;
+      }
+      .container {
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .post {
+        font-family: Georgia, "Times New Roman", Times, "SimSun", serif;
+        position: relative;
+        padding: 70px;
+        bottom: 0;
+        overflow-y: auto;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 25px;
+        color: #515151;
+      }
+
+      .post h1{
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-bottom: 40px;
+        color: inherit;
+      }
+
+      .post p {
+        margin: 0 0 35px 0;
+      }
+
+      .post img {
+        border: 1px solid #D9D9D9;
+      }
+
+      .post a {
+        color: #28A1C5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="post">
+        <h1 class="title">利用BUG，彻底去掉iPhone系统动画</h1>
+        <div class="show-content">
+          <p>不用越狱，不会弄坏手机，教你利用iOS bug去掉系统动画。解锁进入主界面秒速，所有应用秒开，适用于所有iOS 9.0以上的iPhone。想要恢复，重启就可以 。</p><div class="image-package"><img src="http://upload-images.jianshu.io/upload_images/1709305-ba41ea46d1540db3.JPG?imageMogr2/auto-orient/strip|imageView2/2/w/1240"><br><div class="image-caption">http://youtu.be/Knzk2c9fzvw</div></div><p>先在设置里打开AssistiveTouch，调出代替Home键的辅助小按钮，把它移到屏幕最右下角。在主界面下拉，调出搜索框和键盘，这时辅助按钮会自动移到键盘上，到上面后，马上点击空白位置退出搜索，小按钮就会回到右下角。这就是需要的操作步骤，重复步骤让按钮移上移下，直到按钮下降速度变得非常快，此时可找个应用打开看是否成功，如果没有，多尝试几次。成功之后可以去掉辅助按钮，手机运行正常。</p><p>没有系统动画后，进入主界面、后台或打开App，完全没有动画，每次至少可以快半秒，不同于辅助功能里的减少动态效果：减了动画没减等待时间，这次等待时间也去掉了。</p><p>有一个副作用：当按电源键锁屏，屏幕熄掉后会闪一下锁屏界面，不算大问题。上个星期看YouTube上EverythingApplePro的视频后知道这个bug，尝试不过10次就成功了，让我的5C快上不少。这几天用下来没发现更多副作用，完全像给手机来了次大的优化提速。如果iOS 9.3修复了这个问题，为了秒开我有可能不会为5C升级。</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
