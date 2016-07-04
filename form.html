@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text InputControl</title>
+</head>
+<body>
+
+	<form>
+		First name: <input type="text" name="first_name" value="placeholder" />
+		<br>
+		Last name: <input type="text" name="last_name" maxlength="5">
+		<br>
+		<br>
+		User ID: <input type="text" name="user_id">
+		<br>
+		Password: <input type="password" name="password">
+	</form>
+
+	<br>
+
+	<form>
+		Description: <br>
+		<textarea rows="10" cols="50" name="description">Enter description here...</textarea>
+	</form>
+
+	<br>
+
+	<form>
+		<input type="checkbox" name="maths" value="on"> Maths
+		<input type="checkbox" name="physics" value="on" checked="checked"> Physics
+	</form>
+
+	<br>
+
+	<form>
+		<input type="radio" name="subject" value="maths" checked="checked"> Maths
+		<input type="radio" name="subject" value="physics"> Physics
+	</form>
+
+	<br>
+
+	<form>
+		<select name="dropdown">
+		<option value="Maths" selected="selected">Maths</option>
+		<option value="Physics">Physics</option>
+		</select>
+	</form>
+
+	<br>
+
+	<form>
+		<input type="file" name="fileupload" accept="image/*">
+	</form>
+
+	<br>
+
+	<form>
+		<input type="submit" name="submit" value="Submit">
+		<input type="reset" name="reset" value="Reset">
+		<input type="button" name="OK" value="OK">
+		<input type="image" name="imageButton" src="image/cross.png" width="50" height="50">
+	</form>
+
+	<br>
+
+	<form>
+		<p>This is page 10</p>
+		<input type="hidden" name="pagename" value="10">
+		<input type="submit" name="sumit" value="Submit">
+		<input type="reset" name="reset" value="Reset">
+	</form>
+
+</body>
+</html>
