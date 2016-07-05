@@ -1,0 +1,52 @@
+.red{
+	color: red;
+}
+
+.thick{
+	font-size: 20px;
+}
+
+.green{
+	color: green;
+}
+
+.c1 {
+	width: 100%;
+}
+
+.c2 {
+	background-color: #b5dcb3;
+	width: 100%;
+}
+
+.c3 {
+	background-color: #aaa;
+	height: 200px;
+	width: 100px;
+	float: left;
+}
+
+.c4 {
+	background-color: #eee;
+	height: 200px;
+	width: 100px;
+	float: left;
+}
+
+.c5 {
+	background-color: #aaa;
+	height: 200px;
+	width: 100px;
+	float: right;
+}
+
+.c6 {
+	background-color: #b5dcb3;
+	clear: both;
+}
+
+
+
+
+
+
