@@ -35,8 +35,11 @@
 	<br>
 
 	<form>
-		<input type="radio" name="subject" value="maths" checked="checked"> Maths
-		<input type="radio" name="subject" value="physics"> Physics
+		<fieldset>
+			<legend>Legend</legend>
+			<input type="radio" name="subject" value="maths" checked="checked"> Maths
+			<input type="radio" name="subject" value="physics"> Physics
+		</fieldset>
 	</form>
 
 	<br>
@@ -45,6 +48,22 @@
 		<select name="dropdown">
 		<option value="Maths" selected="selected">Maths</option>
 		<option value="Physics">Physics</option>
+		</select>
+	</form>
+
+	<br>
+
+	<form>
+		<select name="favHero">
+		<optgroup label="Marvel">
+			<option value="spiderman">spiderman</option>
+			<option value="wolverine">wolverine</option>
+		</optgroup>
+		<optgroup label="DC">
+			<option value="batman">batman</option>
+			<option value="flash">flash</option>
+		</optgroup>
+		
 		</select>
 	</form>
 

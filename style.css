@@ -1,3 +1,75 @@
+h1 {
+	color: purple;
+}
+
+a:hover { color: blue; }
+a:active { color: red; }
+a:visited { color: green; }
+
+/*body {
+	background: white;
+}*/
+
+header{
+	display: block;
+	padding: 0px 0px 70px 0px
+}
+
+main {
+	padding: 20px 20px 20px 20px;
+}
+
+#logo{
+	float: left;
+}
+
+#HorzNav {
+	display: block;
+	padding: 10px 20px 10px 0px;
+	background-color: black;
+}
+
+#HorzNav a {
+	text-decoration: none;
+	padding: 0px 0px 0px 20px;
+	color: white;
+}
+
+aside {
+	background-color: silver;
+}
+
+#uolisttypes {
+	list-style-type: circle;
+}
+
+#uolisttypes2 {
+	list-style-image: url(icon.ico);
+}
+
+#tableData {
+	width: 600px;
+	border: 3px solid black;
+}
+
+#tableData td th {
+	border: 1px solid black;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 10px 10px 10px 10px;
+}
+
+div#wrapper {
+	margin: auto;
+/*	border: 10px;
+	background-color: silver;*/
+	width: 800px;
+	height: 2000px;
+}
+
 .red{
 	color: red;
 }
